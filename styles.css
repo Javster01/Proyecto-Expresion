@@ -1,13 +1,53 @@
-.luis {
+.fondo {
   background-color: #f4f1f1;
 }
 
 .navbar {
-  background-color: #df144d;
+  background-color: #000113;
   font-size: 125%;
 }
 
-.carrusel {
-  height: 100vh;
-  background-color: green;
+.imagen-tienda {
+  text-align: center;
+}
+
+p.imagen {
+  text-align: center;
+}
+
+p.imagen2 {
+  text-align: center;
+}
+
+.titulo-encima {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.tittle {
+  color: #f4f1f1;
+  font-size: 50vh;
+  position: absolute;
+  top: 50%;
+  /* left: 50%; */
+  transform: translate(-50%, -60%);
+}
+
+.seccion {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.texto-encima {
+  color: #f4f1f1;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.centrado {
+  color: #f4f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
