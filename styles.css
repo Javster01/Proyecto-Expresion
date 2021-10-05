@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #f4f1f1;
+}
+
+.luis {
+  background-color: #f4f1f1;
+}
+
+h1 {
+  color: blueviolet;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 10px;
+}
+
+.parent {
+  border: 2px black dotted;
+  display: inline-block;
+}
+
+.box {
+  display: inline-block;
+  background-color: red;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+}
+
+#two {
+  background-color: green;
+}
+
+#three {
+  background: yellow;
+}
+
+#four {
+  background-color: blue;
+}
+
+.title {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.navbar {
+  color: black;
+  background-color: brown;
+  padding: 6px;
+}
+
+.nav {
+  margin-top: 10px;
+  list-style-type: none;
+  padding-left: 0;
+}
