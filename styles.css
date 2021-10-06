@@ -44,7 +44,7 @@
 .texto-inicio{
   font-family: 'Aleo', serif;
   font-size: 150%;
-  color:black;
+  color:#000113;
   text-align: center;
   transform: translate(15%,10%);
 }
