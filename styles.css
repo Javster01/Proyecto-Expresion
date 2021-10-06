@@ -1,14 +1,18 @@
+html{
+  background: #f4f1f1;
+}
+
 .fondo {
   background-color: #f4f1f1;
 }
 
-.imagen-tienda{
+.imagen-tienda {
   background-color: #f4f1f1;
   opacity: 0.8;
 }
 
 .navbar {
-  background-color: #000113;
+  background-color: #010e44;
   font-size: 125%;
 }
 
@@ -18,10 +22,10 @@
   position: absolute;
   top: 50%;
   transform: translate(-60%, -70%);
-  font-family: 'Bodoni Moda', serif;
+  font-family: "Bodoni Moda", serif;
 }
 
-.div-total{
+.div-total {
   background-color: #f4f1f1;
 }
 
@@ -31,40 +35,38 @@
   text-align: center;
 }
 
-.izquierda{
+.izquierda {
   border: 0;
-  
 }
 
-.derecha{
+.derecha {
   height: 50vh;
-  /* transform: translate(35%, 0%) */
 }
 
-.texto-inicio{
-  font-family: 'Aleo', serif;
+.texto-inicio {
+  font-family: "Aleo", serif;
   font-size: 150%;
-  color:#000113;
+  color: #000113;
   text-align: center;
-  transform: translate(15%,10%);
+  transform: translate(15%, 10%);
 }
 
-.container{
+.container {
   background-color: #f4f1f1;
-  transform: translate(8%,8%);
+  transform: translate(8%, 0%);
   border: solid #000113;
 }
 
-.ropa1{
+.ropa1 {
   height: 60vh;
   opacity: 0.6;
 }
 
-.opaco{
+.opaco {
   background: #df144d;
 }
 
-.contenedor{
+.contenedor {
   position: relative;
   display: inline-block;
   text-align: center;
@@ -76,19 +78,32 @@
   left: 10px;
 }
 
-.centrado{
+.centrado {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 10vh;
-  font-family: 'Bodoni Moda', serif;
+  font-family: "Bodoni Moda", serif;
 }
 
-.enlace{
+.enlace {
   color: #f4f1f1;
 }
 
-.enlace:hover{
+.enlace:hover {
   color: #010e44;
+}
+
+.div-servicios {
+  text-align: center;
+  background-color: #f4f1f1;
+}
+
+.separador1{
+  opacity: 0;
+}
+
+.separador2{
+  opacity: 0;
 }
