@@ -10,18 +10,25 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet">
     <title>Vierpi</title>
   </head>
+
   <body>
       <nav class="navbar navbar-expand navbar-dark">
         <div class="container-fluid">
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="./Index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">¿Quienes Somos?</a>
+                <a class="nav-link" href="./paginaQuienesSomos.html">¿Quienes Somos?</a>
               </li>
                 </ul>
               </li>
@@ -29,21 +36,43 @@
           </div>
         </div>
       </nav>
-      <div class="">
+
+      <div>
         <div class="imagen-tienda">
           <div class="imagen col-12 d-flex justify-content-center align-items-center">
            <img src="img/tienda1.png">
-           <div class="titulo-encima"></div>
            <div class="tittle offset-4 col-6 d-flex align-self-center">Vierpi</div>
           </div>
        </div>       
-        <div class="seccion pt-5">
-          <div class="img1">
-            <p class="imagen2">
-              <img src="img/ropa1.png" ">
+        <div class="container p-5 row">
+          <div class="izquierda col-6">
+            <div class="contenedor">
+              <div class="opaco">  
+              <img class="ropa1" src="img/ropa1.png">
+            </div>
               <div class="texto-encima"></div>
-             <div class="centrado">Texto </div>
-            </p>
+                  <div class="centrado">
+                     <a class="enlace" href="./paginaQuienesSomos.html" style="text-decoration: none;">
+                       ¿Quienes
+                       <br>
+                       Somos?
+                     </a>
+                  </div>
+            </div>
+          </div>
+
+          <div class="derecha col-6 p-5">
+            <div>
+              <p class="texto-inicio">
+                Somos una de las mejores opciones al momento de comprar ropa.
+                <br>
+                ¿Quieres saber mas de nosotros?
+                <br>
+                Si si quieres, !no temas¡, dale click al enlace.
+                <br>
+                Si no quieres...te recomendamos darle click al enlace de todos modos.
+              </p>
+            </div>        
           </div>
         </div>
       </div>

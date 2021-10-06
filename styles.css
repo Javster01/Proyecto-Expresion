@@ -2,52 +2,88 @@
   background-color: #f4f1f1;
 }
 
+.imagen-tienda{
+  opacity: 0.8;
+}
+
 .navbar {
   background-color: #000113;
   font-size: 125%;
 }
 
-.imagen-tienda {
-  text-align: center;
-}
-
-p.imagen {
-  text-align: center;
-}
-
-p.imagen2 {
-  text-align: center;
-}
-
-.titulo-encima {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
 .tittle {
   color: #f4f1f1;
   font-size: 50vh;
   position: absolute;
   top: 50%;
-  /* left: 50%; */
-  transform: translate(-50%, -60%);
+  transform: translate(-60%, -70%);
+  font-family: 'Bodoni Moda', serif;
 }
 
-.seccion {
+.container {
   position: relative;
   display: inline-block;
   text-align: center;
 }
+
+.izquierda{
+  border: 0;
+  
+}
+
+.derecha{
+  height: 50vh;
+  /* transform: translate(35%, 0%) */
+}
+
+.texto-inicio{
+  font-family: 'Aleo', serif;
+  font-size: 150%;
+  color:black;
+  text-align: center;
+  transform: translate(15%,10%);
+}
+
+.container{
+  transform: translate(8%,8%);
+  border: solid #000113;
+}
+
+.ropa1{
+  height: 60vh;
+  opacity: 0.6;
+}
+
+.opaco{
+  background: #df144d;
+}
+
+.contenedor{
+  
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
 .texto-encima {
-  color: #f4f1f1;
   position: absolute;
   top: 10px;
   left: 10px;
 }
-.centrado {
-  color: #f4f1f1;
+
+.centrado{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 10vh;
+  font-family: 'Bodoni Moda', serif;
+}
+
+.enlace{
+  color: #f4f1f1;
+}
+
+.enlace:hover{
+  color: #010e44;
 }
