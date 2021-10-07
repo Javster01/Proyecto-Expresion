@@ -1,4 +1,4 @@
-html{
+html {
   background: #f4f1f1;
 }
 
@@ -100,10 +100,44 @@ html{
   background-color: #f4f1f1;
 }
 
-.separador1{
+.separador1 {
   opacity: 0;
 }
 
-.separador2{
+.separador2 {
   opacity: 0;
+}
+
+.servicios {
+  text-align: center;
+  font-size: 7vh;
+  font-family: "Bodoni Moda", serif;
+}
+
+.div-box {
+  padding-left: 13%;
+  display: inline-block;
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  width: 330px;
+  height: 230px;
+  text-align: center;
+}
+
+#one {
+  font-size: 4vh;
+  font-family: "Aleo", serif;
+}
+
+#two {
+  font-size: 4vh;
+  font-family: "Aleo", serif;
+}
+
+#three {
+  font-size: 4vh;
+  font-family: "Aleo", serif;
 }
